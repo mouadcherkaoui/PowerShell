@@ -64,4 +64,4 @@ function Uninstall-MSIByName {
 }
 
 #Example where there might be both x86 and x64 versions of Java installed and you need both uninstalled
-Uninstall-MSIByName -ApplicationName "Java 8" -Switches "/qb- /norestart"
+#Uninstall-MSIByName -ApplicationName "Microsoft Visual C++ 2015 Redistributable *" -Switches "/qb- /norestart"
